@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4650744448952284}
   - component: {fileID: 33987102681776512}
   - component: {fileID: 23127322977858660}
-  - component: {fileID: 8696654914923697392}
+  - component: {fileID: 2514386895387208835}
   m_Layer: 0
   m_Name: Rua_Cruz_Destruido
   m_TagString: Untagged
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572817250100704}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -82,8 +82,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8696654914923697392
-BoxCollider:
+--- !u!64 &2514386895387208835
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -92,6 +92,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 20, y: 2.7206469, z: 19.999998}
-  m_Center: {x: -10, y: -0.9333265, z: -9.999999}
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 1624998e2bde87248b984d1e371f53df, type: 3}

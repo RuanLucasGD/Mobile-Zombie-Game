@@ -254,6 +254,7 @@ GameObject:
   - component: {fileID: 4520321705250546}
   - component: {fileID: 33994035083394054}
   - component: {fileID: 23239565673896018}
+  - component: {fileID: 3488336548500357328}
   m_Layer: 0
   m_Name: Trator
   m_TagString: Untagged
@@ -328,6 +329,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3488336548500357328
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418656583065284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: c650d7fd52ebadd458af4d0561c0c690, type: 3}
 --- !u!1 &1631220055629038
 GameObject:
   m_ObjectHideFlags: 0

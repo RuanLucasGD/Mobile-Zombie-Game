@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4947205026216590}
   - component: {fileID: 33595895575024930}
   - component: {fileID: 23004761483656994}
+  - component: {fileID: 1191942427759045795}
   m_Layer: 0
   m_Name: Concreto
   m_TagString: Untagged
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1191942427759045795
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163550317593264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15, y: 3.330669e-15, z: 15}
+  m_Center: {x: -7.5, y: 1.6653345e-15, z: -7.5}
