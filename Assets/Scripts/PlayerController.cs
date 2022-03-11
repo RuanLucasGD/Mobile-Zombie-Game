@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviourPunCallbacks
 {
     [Header("Inputs")]
     [SerializeField] private string verticalAxis;
@@ -19,12 +20,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float mouseSensitive;
     [SerializeField] private Camera playerCamera;
 
+    [Header("Weapon")]
+    [SerializeField] private GameObject weaponSystem;
 
     private float currentMouseEulerX;
 
-    private Animator _animator;
-    private SkinnedMeshRenderer _meshRenderer;
-    private CharacterController _characterController;
+    private Animator animator;
+    private SkinnedMeshRenderer meshRenderer;
+    private CharacterController characterController;
 
     public string VerticalAxis { get => verticalAxis; set => verticalAxis = value; }
     public string HorizontalAxis { get => horizontalAxis; set => horizontalAxis = value; }
@@ -35,29 +38,41 @@ public class PlayerController : MonoBehaviour
     public float MaxCameraVertical { get => maxCameraVertical; set => maxCameraVertical = value; }
     public Camera PlayerCamera { get => playerCamera; set => playerCamera = value; }
     public float MouseSensitive { get => mouseSensitive; set => mouseSensitive = value; }
+    public GameObject WeaponSystem { get => weaponSystem; set => weaponSystem = value; }
 
     // Start is called before the first frame update
     void Start()
     {
-        _animator = GetComponentInChildren<Animator>();
-        _meshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
-        _characterController = GetComponent<CharacterController>();
+        animator = GetComponentInChildren<Animator>();
+        meshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
+        characterController = GetComponent<CharacterController>();
 
-        if (_meshRenderer)
+        if (photonView.IsMine)
         {
-            _meshRenderer.enabled = false;
+            if (meshRenderer)
+            {
+                meshRenderer.enabled = false;
+            }
+        }
+        else
+        {
+            Destroy(weaponSystem);
+            Destroy(playerCamera.gameObject);
         }
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (!_characterController)
+        if (!characterController)
         {
             return;
         }
 
-        ControlCharacter();
+        if (photonView.IsMine)
+        {
+            ControlCharacter();
+        }
     }
 
     private void ControlCharacter()
@@ -73,11 +88,14 @@ public class PlayerController : MonoBehaviour
         _moveDirection += Vector3.down * Gravity;
         _moveDirection *= Time.fixedDeltaTime;
 
-        currentMouseEulerX -= _mouseVertical * MouseSensitive;
-        currentMouseEulerX = Mathf.Clamp(currentMouseEulerX, -MaxCameraVertical, MaxCameraVertical);
-        PlayerCamera.transform.localEulerAngles = Vector3.right * currentMouseEulerX;
-
-        _characterController.Move(_moveDirection);
+        characterController.Move(_moveDirection);
         transform.Rotate(Vector3.up * _mouseHorizontal * MouseSensitive);
+
+        if (PlayerCamera)
+        {
+            currentMouseEulerX -= _mouseVertical * MouseSensitive;
+            currentMouseEulerX = Mathf.Clamp(currentMouseEulerX, -MaxCameraVertical, MaxCameraVertical);
+            PlayerCamera.transform.localEulerAngles = Vector3.right * currentMouseEulerX;
+        }
     }
 }
