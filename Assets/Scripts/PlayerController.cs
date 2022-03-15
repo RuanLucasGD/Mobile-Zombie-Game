@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
     [Header("Movimentation")]
     [SerializeField] private float playerMoveSpeed;
     [SerializeField] private float gravity;
+    [SerializeField] private bool disableDefaultControl;
 
     [Header("Camera Control")]
     [SerializeField] private float maxCameraVertical;
@@ -60,6 +61,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
     private SkinnedMeshRenderer meshRenderer;
     private CharacterController characterController;
 
+    private Quaternion currentBodyRotation;
     private Quaternion initialRootBoneRotation;
     private Quaternion initialUpperBodyBoneRotation;
 
@@ -74,8 +76,11 @@ public class PlayerController : MonoBehaviourPunCallbacks
     public float MouseSensitive { get => mouseSensitive; set => mouseSensitive = value; }
     public GameObject WeaponSystem { get => weaponSystem; set => weaponSystem = value; }
     public GameObject WeaponMesh { get => weaponMesh; set => weaponMesh = value; }
-
-    private Quaternion currentBodyRotation;
+    public bool DisableDefaultControl { get => disableDefaultControl; set => disableDefaultControl = value; }
+    public float VerticalInput { get => verticalInput; set => verticalInput = value; }
+    public float HorizontalInput { get => horizontalInput; set => horizontalInput = value; }
+    public float MouseHorizontalInput { get => mouseHorizontalInput; set => mouseHorizontalInput = value; }
+    public float MouseVerticalInput { get => mouseVerticalInput; set => mouseVerticalInput = value; }
 
     // Start is called before the first frame update
     void Start()
@@ -96,7 +101,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
             if (_audioListener) _audioListener.enabled = false;
             if (meshRenderer) meshRenderer.enabled = false;
-            if (weaponMesh)Destroy(WeaponMesh);
+            if (weaponMesh) Destroy(WeaponMesh);
         }
         else
         {
@@ -107,10 +112,13 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
     private void Update()
     {
-        horizontalInput = Input.GetAxis(HorizontalAxis);
-        verticalInput = Input.GetAxis(VerticalAxis);
-        mouseHorizontalInput = Input.GetAxis(MouseHorizontalAxis);
-        mouseVerticalInput = Input.GetAxis(MouseVerticalAxis);
+        if (!DisableDefaultControl)
+        {
+            HorizontalInput = Input.GetAxis(HorizontalAxis);
+            VerticalInput = Input.GetAxis(VerticalAxis);
+            MouseHorizontalInput = Input.GetAxis(MouseHorizontalAxis) * mouseSensitive;
+            MouseVerticalInput = Input.GetAxis(MouseVerticalAxis) * mouseSensitive;
+        }
     }
 
     private void LateUpdate()
@@ -132,7 +140,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
         if (photonView.IsMine)
         {
-            var _input = Mathf.Clamp(Mathf.Abs(verticalInput) + Mathf.Abs(horizontalInput), 0, 1);
+            var _input = Mathf.Clamp(Mathf.Abs(VerticalInput) + Mathf.Abs(HorizontalInput), 0, 1);
             var _relativeMoveDir = transform.InverseTransformDirection(playerMoveDirection);
 
             if (_relativeMoveDir.z < 0)
@@ -141,23 +149,24 @@ public class PlayerController : MonoBehaviourPunCallbacks
             }
 
             ControlCharacter();
+
             ControlMovimentAnimation(runAnimationParameter, _input);
         }
     }
 
     private void ControlCharacter()
     {
-        var _inputDirection = ((transform.forward * verticalInput) + (transform.right * horizontalInput)).normalized;
+        var _inputDirection = ((transform.forward * VerticalInput) + (transform.right * HorizontalInput)).normalized;
         playerMoveDirection = _inputDirection * PlayerMoveSpeed;
 
         playerMoveDirection *= Time.fixedDeltaTime;
 
         characterController.Move(playerMoveDirection + Vector3.down * Gravity);
-        transform.Rotate(Vector3.up * mouseHorizontalInput * MouseSensitive);
+        transform.Rotate(Vector3.up * MouseHorizontalInput);
 
         if (PlayerCamera)
         {
-            currentMouseEulerX -= mouseVerticalInput * MouseSensitive;
+            currentMouseEulerX -= MouseVerticalInput;
             currentMouseEulerX = Mathf.Clamp(currentMouseEulerX, -MaxCameraVertical, MaxCameraVertical);
             PlayerCamera.transform.localEulerAngles = Vector3.right * currentMouseEulerX;
         }

@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4974368393868404}
   - component: {fileID: 33747307534565948}
   - component: {fileID: 23175989791011778}
-  - component: {fileID: 1342879154860406876}
+  - component: {fileID: 5570048315939887696}
   m_Layer: 0
   m_Name: Predio_Destruido_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4974368393868404
 Transform:
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618212132757080}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -83,8 +83,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1342879154860406876
-MeshCollider:
+--- !u!65 &5570048315939887696
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -93,10 +93,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: b2fbafca93c599a4ea713c346cecd3f8, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 19.732422, y: 28.155413, z: 20.665482}
+  m_Center: {x: 2.6587632, y: 13.159331, z: 3.635435}
 --- !u!1 &1763101124515526
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,7 +112,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4764513376396926
 Transform:

@@ -899,6 +899,7 @@ MonoBehaviour:
   mouseHorizontalAxis: Mouse X
   playerMoveSpeed: 10
   gravity: 9
+  disableDefaultControl: 0
   maxCameraVertical: 80
   mouseSensitive: 15
   playerCamera: {fileID: 962762087486348896}

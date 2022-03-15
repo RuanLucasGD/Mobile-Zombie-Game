@@ -320,6 +320,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_03 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1623366900972684, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1984166997344338, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4889253742365826, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -381,6 +389,14 @@ PrefabInstance:
     - target: {fileID: 1623366900972684, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623366900972684, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1984166997344338, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4889253742365826, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
       propertyPath: m_RootOrder
@@ -692,6 +708,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_03
       objectReference: {fileID: 0}
+    - target: {fileID: 1623366900972684, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1984166997344338, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4889253742365826, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
       propertyPath: m_RootOrder
       value: 290
@@ -812,9 +836,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1414032612332952, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4378825683449982, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_RootOrder
@@ -998,9 +1030,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1414032612332952, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4378825683449982, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_RootOrder
@@ -1878,6 +1918,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_07 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1784034854235806, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887035025333184, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4047936160182844, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -2250,6 +2298,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Destruido_04
       objectReference: {fileID: 0}
+    - target: {fileID: 1618212132757080, guid: aba0360a0675a4cd0ac5558d3b470ec4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1763101124515526, guid: aba0360a0675a4cd0ac5558d3b470ec4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4974368393868404, guid: aba0360a0675a4cd0ac5558d3b470ec4, type: 3}
       propertyPath: m_RootOrder
       value: 222
@@ -2498,6 +2554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre_Agua (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1205606103621898, guid: 97dc7f64ea9334b1bac4f23088382d45, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4438905660083320, guid: 97dc7f64ea9334b1bac4f23088382d45, type: 3}
       propertyPath: m_RootOrder
       value: 291
@@ -2556,9 +2616,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1044126197634720, guid: de66043a35a594a249c108c1a631a58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1393773280636838, guid: de66043a35a594a249c108c1a631a58a, type: 3}
       propertyPath: m_Name
       value: Hospital_Entrada (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1393773280636838, guid: de66043a35a594a249c108c1a631a58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4783345961764210, guid: de66043a35a594a249c108c1a631a58a, type: 3}
       propertyPath: m_RootOrder
@@ -2928,9 +2996,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1080922358991876, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169988846741954, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1989350665703294, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989350665703294, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4362696575671586, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
       propertyPath: m_RootOrder
@@ -3180,6 +3260,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_05
       objectReference: {fileID: 0}
+    - target: {fileID: 1178430294733908, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1437226328740242, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4146881079525304, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
       propertyPath: m_RootOrder
       value: 142
@@ -3424,9 +3512,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1414032612332952, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4378825683449982, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_RootOrder
@@ -3694,6 +3790,14 @@ PrefabInstance:
     - target: {fileID: 1784034854235806, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784034854235806, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887035025333184, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4047936160182844, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
       propertyPath: m_RootOrder
@@ -4118,6 +4222,43 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4600660653577794, guid: fb0717d22731641ffa17f7938709c24a, type: 3}
   m_PrefabInstance: {fileID: 372987553}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &375553827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 375553828}
+  m_Layer: 5
+  m_Name: mobile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &375553828
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375553827}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1902663421}
+  - {fileID: 669143458}
+  m_Father: {fileID: 920647361}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &397267415 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1218412560417200, guid: ee7f91516af52453f98f491cf554a1f1, type: 3}
@@ -4144,9 +4285,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1080922358991876, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169988846741954, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1989350665703294, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989350665703294, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4362696575671586, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
       propertyPath: m_RootOrder
@@ -4379,6 +4532,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Restaurante_Destruido
       objectReference: {fileID: 0}
+    - target: {fileID: 1146885078229164, guid: ae496fdd48ee74085a352093ba11440e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924583669974360, guid: ae496fdd48ee74085a352093ba11440e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4803974539803166, guid: ae496fdd48ee74085a352093ba11440e, type: 3}
       propertyPath: m_RootOrder
       value: 325
@@ -4499,9 +4660,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1414032612332952, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4378825683449982, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_RootOrder
@@ -4564,6 +4733,18 @@ PrefabInstance:
     - target: {fileID: 1651699097381686, guid: 6e16ce19f1bb248b2b839473147cf761, type: 3}
       propertyPath: m_Name
       value: Casa_Alta_Destruido_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651699097381686, guid: 6e16ce19f1bb248b2b839473147cf761, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676808240818626, guid: 6e16ce19f1bb248b2b839473147cf761, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936341391599394, guid: 6e16ce19f1bb248b2b839473147cf761, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4031271460615696, guid: 6e16ce19f1bb248b2b839473147cf761, type: 3}
       propertyPath: m_RootOrder
@@ -4685,9 +4866,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1414032612332952, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4378825683449982, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_RootOrder
@@ -6128,6 +6317,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_07 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1784034854235806, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887035025333184, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4047936160182844, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -6537,6 +6734,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4326803534230402, guid: 88d638b8454444c37becd7aa2c833452, type: 3}
   m_PrefabInstance: {fileID: 658681291}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &669143457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 669143458}
+  - component: {fileID: 669143459}
+  m_Layer: 5
+  m_Name: touch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &669143458
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669143457}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1507629010}
+  - {fileID: 2007032355}
+  m_Father: {fileID: 375553828}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &669143459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669143457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ddb9218ee96954fbb76717b3104881, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensitivity: 5
+  invertVertical: 0
+  invertHorizontal: 0
 --- !u!1 &669214216
 GameObject:
   m_ObjectHideFlags: 0
@@ -6551,7 +6801,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &669214217
 Transform:
@@ -7244,6 +7494,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_03 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1623366900972684, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1984166997344338, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4889253742365826, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7492,6 +7750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre_Agua
       objectReference: {fileID: 0}
+    - target: {fileID: 1205606103621898, guid: 97dc7f64ea9334b1bac4f23088382d45, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4438905660083320, guid: 97dc7f64ea9334b1bac4f23088382d45, type: 3}
       propertyPath: m_RootOrder
       value: 326
@@ -7554,6 +7816,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1178430294733908, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1437226328740242, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4146881079525304, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
       propertyPath: m_RootOrder
       value: 72
@@ -7612,9 +7882,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1414032612332952, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4378825683449982, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_RootOrder
@@ -8007,6 +8285,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_04
       objectReference: {fileID: 0}
+    - target: {fileID: 1187237599870834, guid: 284159092372e4a9b897672fcded70aa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1192022871519186, guid: 284159092372e4a9b897672fcded70aa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4238696084537114, guid: 284159092372e4a9b897672fcded70aa, type: 3}
       propertyPath: m_RootOrder
       value: 212
@@ -8192,6 +8478,18 @@ PrefabInstance:
     - target: {fileID: 1193590775015504, guid: 4eece6fc288f449e49ea8c7318a245b6, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1193590775015504, guid: 4eece6fc288f449e49ea8c7318a245b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1264596590169430, guid: 4eece6fc288f449e49ea8c7318a245b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1461934168349412, guid: 4eece6fc288f449e49ea8c7318a245b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4713403256189010, guid: 4eece6fc288f449e49ea8c7318a245b6, type: 3}
       propertyPath: m_RootOrder
@@ -9434,9 +9732,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1397836941599564, guid: 95081098b1ca349549bce602f4b0bfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1486654267632138, guid: 95081098b1ca349549bce602f4b0bfa6, type: 3}
       propertyPath: m_Name
       value: Cafeteria_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486654267632138, guid: 95081098b1ca349549bce602f4b0bfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4430695965470558, guid: 95081098b1ca349549bce602f4b0bfa6, type: 3}
       propertyPath: m_RootOrder
@@ -9737,6 +10043,148 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4858113213163598, guid: 2e5f433e1eec74e2eb58a49e612b7876, type: 3}
   m_PrefabInstance: {fileID: 917813584}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &920647357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 920647361}
+  - component: {fileID: 920647360}
+  - component: {fileID: 920647359}
+  - component: {fileID: 920647358}
+  - component: {fileID: 920647362}
+  - component: {fileID: 920647363}
+  m_Layer: 5
+  m_Name: UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &920647358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920647357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &920647359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920647357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1280, y: 720}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &920647360
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920647357}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &920647361
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920647357}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 375553828}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &920647362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920647357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9e4ef6fccd15b242bfe2bee742ebb03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPlayerFinded:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 920647363}
+        m_TargetAssemblyTypeName: UI_Manager, Assembly-CSharp
+        m_MethodName: EnableMobileControls
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &920647363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920647357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e14e64b7f953f4a835d07df5b35cc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mobileUI: {fileID: 375553827}
 --- !u!1001 &921612611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9744,9 +10192,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1397836941599564, guid: 95081098b1ca349549bce602f4b0bfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1486654267632138, guid: 95081098b1ca349549bce602f4b0bfa6, type: 3}
       propertyPath: m_Name
       value: Cafeteria_Destruido (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486654267632138, guid: 95081098b1ca349549bce602f4b0bfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4430695965470558, guid: 95081098b1ca349549bce602f4b0bfa6, type: 3}
       propertyPath: m_RootOrder
@@ -9933,6 +10389,14 @@ PrefabInstance:
     - target: {fileID: 1784034854235806, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_07 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784034854235806, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887035025333184, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4047936160182844, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
       propertyPath: m_RootOrder
@@ -10240,9 +10704,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1427051795896822, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680419038129142, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1912674255285754, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
       propertyPath: m_Name
       value: Apartamentos_Destruido_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912674255285754, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4831802835703742, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
       propertyPath: m_RootOrder
@@ -10736,9 +11212,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1080922358991876, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169988846741954, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1989350665703294, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989350665703294, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4362696575671586, guid: d144633a57b704679aeeab6c6808aa84, type: 3}
       propertyPath: m_RootOrder
@@ -10922,9 +11410,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1048836983544576, guid: 7838d82f56cc54177bf8ef54183cac12, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1438330537306224, guid: 7838d82f56cc54177bf8ef54183cac12, type: 3}
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1438330537306224, guid: 7838d82f56cc54177bf8ef54183cac12, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4710959119490048, guid: 7838d82f56cc54177bf8ef54183cac12, type: 3}
       propertyPath: m_RootOrder
@@ -10987,6 +11483,14 @@ PrefabInstance:
     - target: {fileID: 1178430294733908, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_05 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1178430294733908, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1437226328740242, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4146881079525304, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
       propertyPath: m_RootOrder
@@ -11379,6 +11883,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_05 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1178430294733908, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1437226328740242, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4146881079525304, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
       propertyPath: m_RootOrder
       value: 73
@@ -11685,9 +12197,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1044126197634720, guid: de66043a35a594a249c108c1a631a58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1393773280636838, guid: de66043a35a594a249c108c1a631a58a, type: 3}
       propertyPath: m_Name
       value: Hospital_Entrada (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1393773280636838, guid: de66043a35a594a249c108c1a631a58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4783345961764210, guid: de66043a35a594a249c108c1a631a58a, type: 3}
       propertyPath: m_RootOrder
@@ -11871,9 +12391,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1151450671505268, guid: 4cfc1632947444d57965ab47e7863660, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1336639486154844, guid: 4cfc1632947444d57965ab47e7863660, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1833531126163830, guid: 4cfc1632947444d57965ab47e7863660, type: 3}
       propertyPath: m_Name
       value: Apartamentos_Grande_Destruido_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1833531126163830, guid: 4cfc1632947444d57965ab47e7863660, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4629468223792970, guid: 4cfc1632947444d57965ab47e7863660, type: 3}
       propertyPath: m_RootOrder
@@ -12218,6 +12750,14 @@ PrefabInstance:
     - target: {fileID: 1784034854235806, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_07 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784034854235806, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887035025333184, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4047936160182844, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
       propertyPath: m_RootOrder
@@ -12591,6 +13131,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_03 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1623366900972684, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1984166997344338, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4889253742365826, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
       propertyPath: m_RootOrder
       value: 353
@@ -12839,6 +13387,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_03 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1623366900972684, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1984166997344338, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4889253742365826, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -13025,6 +13581,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1784034854235806, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887035025333184, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4047936160182844, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -13083,9 +13647,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1427051795896822, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680419038129142, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1912674255285754, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
       propertyPath: m_Name
       value: Apartamentos_Destruido_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912674255285754, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4831802835703742, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
       propertyPath: m_RootOrder
@@ -13211,6 +13787,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trailer_Estacionado_Destruido
       objectReference: {fileID: 0}
+    - target: {fileID: 1482326772946210, guid: 7a4bc96ca24cb4c53bb328f746d7ba54, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531807839119294, guid: 7a4bc96ca24cb4c53bb328f746d7ba54, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4776056186239724, guid: 7a4bc96ca24cb4c53bb328f746d7ba54, type: 3}
       propertyPath: m_RootOrder
       value: 324
@@ -13331,9 +13915,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1427051795896822, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680419038129142, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1912674255285754, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
       propertyPath: m_Name
       value: Apartamentos_Destruido_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912674255285754, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4831802835703742, guid: 87ba5f95919ec4e84838f3c00d028df2, type: 3}
       propertyPath: m_RootOrder
@@ -13448,6 +14044,72 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4094762605330370, guid: 231c3024d4d3549ed82cfef32abff111, type: 3}
   m_PrefabInstance: {fileID: 1256515374}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1259586952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1259586955}
+  - component: {fileID: 1259586954}
+  - component: {fileID: 1259586953}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1259586953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259586952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1259586954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259586952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1259586955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259586952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1260016616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14185,6 +14847,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1623366900972684, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1984166997344338, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4889253742365826, guid: d48c4751b011a482eb2476af6830afe3, type: 3}
       propertyPath: m_RootOrder
       value: 355
@@ -14243,9 +14913,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1007945331149070, guid: 1c72eaf2db1114071901ab31deabfc1e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1905581105140110, guid: 1c72eaf2db1114071901ab31deabfc1e, type: 3}
       propertyPath: m_Name
       value: Apartamentos_Destruido_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905581105140110, guid: 1c72eaf2db1114071901ab31deabfc1e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932456385843142, guid: 1c72eaf2db1114071901ab31deabfc1e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4021196364938230, guid: 1c72eaf2db1114071901ab31deabfc1e, type: 3}
       propertyPath: m_RootOrder
@@ -14491,9 +15173,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1353341931489334, guid: 86e9ee220058d48aa8c4f8401c66c19d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1587557312401890, guid: 86e9ee220058d48aa8c4f8401c66c19d, type: 3}
       propertyPath: m_Name
       value: Predio_Destruido_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587557312401890, guid: 86e9ee220058d48aa8c4f8401c66c19d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4366745902216556, guid: 86e9ee220058d48aa8c4f8401c66c19d, type: 3}
       propertyPath: m_RootOrder
@@ -14739,9 +15429,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1048836983544576, guid: 7838d82f56cc54177bf8ef54183cac12, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1438330537306224, guid: 7838d82f56cc54177bf8ef54183cac12, type: 3}
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1438330537306224, guid: 7838d82f56cc54177bf8ef54183cac12, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4710959119490048, guid: 7838d82f56cc54177bf8ef54183cac12, type: 3}
       propertyPath: m_RootOrder
@@ -14801,9 +15499,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1414032612332952, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4378825683449982, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_RootOrder
@@ -15115,6 +15821,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_07 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1784034854235806, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887035025333184, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4047936160182844, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -15176,6 +15890,14 @@ PrefabInstance:
     - target: {fileID: 1115316424247010, guid: 8e8ecc4b6df224a43bef6485cdd90681, type: 3}
       propertyPath: m_Name
       value: Posto_Gasolina_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115316424247010, guid: 8e8ecc4b6df224a43bef6485cdd90681, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348315240162586, guid: 8e8ecc4b6df224a43bef6485cdd90681, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4456888929239980, guid: 8e8ecc4b6df224a43bef6485cdd90681, type: 3}
       propertyPath: m_RootOrder
@@ -15483,9 +16205,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1414032612332952, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568820778867656, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4378825683449982, guid: 54a5b47e84fd743c5b1024f82020e6a9, type: 3}
       propertyPath: m_RootOrder
@@ -15605,6 +16335,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4189152451497364, guid: 165c63e06bedd476890c8366e8b09d85, type: 3}
   m_PrefabInstance: {fileID: 1430574702}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1435623701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1435623702}
+  - component: {fileID: 1435623704}
+  - component: {fileID: 1435623703}
+  m_Layer: 5
+  m_Name: movable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1435623702
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435623701}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1902663421}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000030517578, y: 0}
+  m_SizeDelta: {x: 143.79, y: 143.79}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1435623703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435623701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1435623704
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435623701}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1437686772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15736,9 +16541,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1487540245514656, guid: 7bc415467844c4d98ab56f767f785ac3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1674030368448256, guid: 7bc415467844c4d98ab56f767f785ac3, type: 3}
       propertyPath: m_Name
       value: Predio_Destruido_05 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1674030368448256, guid: 7bc415467844c4d98ab56f767f785ac3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4095933322598068, guid: 7bc415467844c4d98ab56f767f785ac3, type: 3}
       propertyPath: m_RootOrder
@@ -15984,9 +16797,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1353341931489334, guid: 86e9ee220058d48aa8c4f8401c66c19d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1587557312401890, guid: 86e9ee220058d48aa8c4f8401c66c19d, type: 3}
       propertyPath: m_Name
       value: Predio_Destruido_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587557312401890, guid: 86e9ee220058d48aa8c4f8401c66c19d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4366745902216556, guid: 86e9ee220058d48aa8c4f8401c66c19d, type: 3}
       propertyPath: m_RootOrder
@@ -16372,6 +17193,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_07 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1784034854235806, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887035025333184, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4047936160182844, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -16423,6 +17252,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4047936160182844, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
   m_PrefabInstance: {fileID: 1499682788}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1507629009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1507629010}
+  - component: {fileID: 1507629012}
+  - component: {fileID: 1507629011}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1507629010
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507629009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 669143458}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -4.745, y: 105.42}
+  m_SizeDelta: {x: 1152.362, y: 210.84}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1507629011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507629009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1507629012
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507629009}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1513942509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16864,9 +17768,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1487540245514656, guid: 7bc415467844c4d98ab56f767f785ac3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1674030368448256, guid: 7bc415467844c4d98ab56f767f785ac3, type: 3}
       propertyPath: m_Name
       value: Predio_Destruido_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1674030368448256, guid: 7bc415467844c4d98ab56f767f785ac3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4095933322598068, guid: 7bc415467844c4d98ab56f767f785ac3, type: 3}
       propertyPath: m_RootOrder
@@ -17558,9 +18470,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1222705017213082, guid: 01beadeab9463430ab3c5d79971b707c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1736703767206762, guid: 01beadeab9463430ab3c5d79971b707c, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736703767206762, guid: 01beadeab9463430ab3c5d79971b707c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4454326117170268, guid: 01beadeab9463430ab3c5d79971b707c, type: 3}
       propertyPath: m_RootOrder
@@ -18178,9 +19098,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1140846224640660, guid: 13d674784a3b5403181721c90d2cf25a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1152208867609058, guid: 13d674784a3b5403181721c90d2cf25a, type: 3}
       propertyPath: m_Name
       value: Hospital_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 1152208867609058, guid: 13d674784a3b5403181721c90d2cf25a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4187899279296024, guid: 13d674784a3b5403181721c90d2cf25a, type: 3}
       propertyPath: m_RootOrder
@@ -18553,6 +19481,14 @@ PrefabInstance:
     - target: {fileID: 1178430294733908, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_05 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1178430294733908, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1437226328740242, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4146881079525304, guid: 05eb9e62b0ab4448dbc48133ae89fdff, type: 3}
       propertyPath: m_RootOrder
@@ -20106,6 +21042,134 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4517415649865884, guid: 65230f962a0a9462d99fcc669858b9a8, type: 3}
   m_PrefabInstance: {fileID: 1895746025}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1901223179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1901223180}
+  - component: {fileID: 1901223182}
+  - component: {fileID: 1901223181}
+  m_Layer: 5
+  m_Name: center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1901223180
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901223179}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1902663421}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000030517578, y: 0}
+  m_SizeDelta: {x: 230.023, y: 230.023}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1901223181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901223179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1901223182
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901223179}
+  m_CullTransparentMesh: 1
+--- !u!1 &1902663420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1902663421}
+  - component: {fileID: 1902663422}
+  m_Layer: 5
+  m_Name: Joystick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1902663421
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902663420}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1901223180}
+  - {fileID: 1435623702}
+  m_Father: {fileID: 375553828}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -456, y: -163}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1902663422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902663420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268448e7bc0f6884596479e508da54ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {fileID: 1901223180}
+  joystick: {fileID: 1435623702}
+  radius: 50
 --- !u!1001 &1908124734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20116,6 +21180,10 @@ PrefabInstance:
     - target: {fileID: 1205606103621898, guid: 97dc7f64ea9334b1bac4f23088382d45, type: 3}
       propertyPath: m_Name
       value: Torre_Agua (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1205606103621898, guid: 97dc7f64ea9334b1bac4f23088382d45, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4438905660083320, guid: 97dc7f64ea9334b1bac4f23088382d45, type: 3}
       propertyPath: m_RootOrder
@@ -20281,9 +21349,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1397836941599564, guid: 95081098b1ca349549bce602f4b0bfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1486654267632138, guid: 95081098b1ca349549bce602f4b0bfa6, type: 3}
       propertyPath: m_Name
       value: Cafeteria_Destruido (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486654267632138, guid: 95081098b1ca349549bce602f4b0bfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4430695965470558, guid: 95081098b1ca349549bce602f4b0bfa6, type: 3}
       propertyPath: m_RootOrder
@@ -20343,9 +21419,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1246280771056852, guid: 6da5b512f235b47be933513481860a88, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1375317473364402, guid: 6da5b512f235b47be933513481860a88, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1375317473364402, guid: 6da5b512f235b47be933513481860a88, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1666882905673230, guid: 6da5b512f235b47be933513481860a88, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4640626297771334, guid: 6da5b512f235b47be933513481860a88, type: 3}
       propertyPath: m_RootOrder
@@ -20467,9 +21555,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1222705017213082, guid: 01beadeab9463430ab3c5d79971b707c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1736703767206762, guid: 01beadeab9463430ab3c5d79971b707c, type: 3}
       propertyPath: m_Name
       value: Loja_Destruido_06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736703767206762, guid: 01beadeab9463430ab3c5d79971b707c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4454326117170268, guid: 01beadeab9463430ab3c5d79971b707c, type: 3}
       propertyPath: m_RootOrder
@@ -21285,9 +22381,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1151450671505268, guid: 4cfc1632947444d57965ab47e7863660, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1336639486154844, guid: 4cfc1632947444d57965ab47e7863660, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1833531126163830, guid: 4cfc1632947444d57965ab47e7863660, type: 3}
       propertyPath: m_Name
       value: Apartamentos_Grande_Destruido_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1833531126163830, guid: 4cfc1632947444d57965ab47e7863660, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4629468223792970, guid: 4cfc1632947444d57965ab47e7863660, type: 3}
       propertyPath: m_RootOrder
@@ -21571,6 +22679,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4505294324335652, guid: 9a588a7b9daeb4955a3a0912a580bfc8, type: 3}
   m_PrefabInstance: {fileID: 2005099920}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2007032354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2007032355}
+  - component: {fileID: 2007032357}
+  - component: {fileID: 2007032356}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2007032355
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007032354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 669143458}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 53.513, y: -0.979}
+  m_SizeDelta: {x: 705.606, y: 423.634}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2007032356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007032354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2007032357
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007032354}
+  m_CullTransparentMesh: 1
 --- !u!1001 &2008661804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21581,6 +22764,14 @@ PrefabInstance:
     - target: {fileID: 1784034854235806, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
       propertyPath: m_Name
       value: Predio_Comercial_Destruido_07 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784034854235806, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887035025333184, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4047936160182844, guid: b676e0ba23f8543e5b687c3c4a3e2776, type: 3}
       propertyPath: m_RootOrder
@@ -21826,9 +23017,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1487540245514656, guid: 7bc415467844c4d98ab56f767f785ac3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1674030368448256, guid: 7bc415467844c4d98ab56f767f785ac3, type: 3}
       propertyPath: m_Name
       value: Predio_Destruido_05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1674030368448256, guid: 7bc415467844c4d98ab56f767f785ac3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4095933322598068, guid: 7bc415467844c4d98ab56f767f785ac3, type: 3}
       propertyPath: m_RootOrder
@@ -22322,9 +23521,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1044126197634720, guid: de66043a35a594a249c108c1a631a58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1393773280636838, guid: de66043a35a594a249c108c1a631a58a, type: 3}
       propertyPath: m_Name
       value: Hospital_Entrada
+      objectReference: {fileID: 0}
+    - target: {fileID: 1393773280636838, guid: de66043a35a594a249c108c1a631a58a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4783345961764210, guid: de66043a35a594a249c108c1a631a58a, type: 3}
       propertyPath: m_RootOrder
@@ -22582,9 +23789,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1122133499886826, guid: 14dcb2fd0ed594b8da495706a5f54a67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1636701632463760, guid: 14dcb2fd0ed594b8da495706a5f54a67, type: 3}
       propertyPath: m_Name
       value: Predio_Destruido_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636701632463760, guid: 14dcb2fd0ed594b8da495706a5f54a67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4964964692321904, guid: 14dcb2fd0ed594b8da495706a5f54a67, type: 3}
       propertyPath: m_RootOrder
@@ -22954,9 +24169,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 669214217}
     m_Modifications:
+    - target: {fileID: 1007945331149070, guid: 1c72eaf2db1114071901ab31deabfc1e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1905581105140110, guid: 1c72eaf2db1114071901ab31deabfc1e, type: 3}
       propertyPath: m_Name
       value: Apartamentos_Destruido_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905581105140110, guid: 1c72eaf2db1114071901ab31deabfc1e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932456385843142, guid: 1c72eaf2db1114071901ab31deabfc1e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4021196364938230, guid: 1c72eaf2db1114071901ab31deabfc1e, type: 3}
       propertyPath: m_RootOrder
