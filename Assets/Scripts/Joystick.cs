@@ -1,14 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-    public RectTransform center;
-    public RectTransform joystick;
-    public float radius;
+    [SerializeField] private RectTransform center;
+    [SerializeField] private RectTransform joystick;
+    [SerializeField] private float radius;
 
     private bool isPressed;
     private Vector3 joystickDirection;
@@ -54,8 +51,8 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         {
             var _dir = (Vector3)pointerData.position - center.position;
 
-
             joystick.position = center.position + _dir;
+
             if (joystick.anchoredPosition.magnitude > radius)
             {
                 joystick.anchoredPosition = joystick.anchoredPosition.normalized * radius;

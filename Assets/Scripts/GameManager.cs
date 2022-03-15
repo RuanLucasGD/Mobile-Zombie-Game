@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -10,19 +8,18 @@ public class GameManager : MonoBehaviour
     private PlayerController player;
 
     public PlayerController Player => player;
+    public UnityEvent OnPlayerFinded { get => onPlayerFinded; set => onPlayerFinded = value; }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (!Player)
         {
             FindPlayer();
+
+            if (Player)
+            {
+                OnPlayerFinded.Invoke();
+            }
         }
     }
 
@@ -32,11 +29,7 @@ public class GameManager : MonoBehaviour
 
         foreach (var p in _players)
         {
-            if (p.photonView.IsMine)
-            {
-                player = p;
-                onPlayerFinded.Invoke();
-            }
+            if (p.photonView.IsMine) player = p;
         }
     }
 }

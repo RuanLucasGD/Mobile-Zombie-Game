@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 
@@ -17,9 +15,9 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     [SerializeField] private string roomName;
 
     public GameObject SpawnArea { get => spawnArea; set => spawnArea = value; }
+    public float MaxSpawnDistance { get => maxSpawnDistance; set => maxSpawnDistance = value; }
     public string PlayerPath { get => playerPath; set => playerPath = value; }
     public string RoomName { get => roomName; set => roomName = value; }
-    public float MaxSpawnDistance { get => maxSpawnDistance; set => maxSpawnDistance = value; }
 
     private static NetworkManager instance;
     public static NetworkManager Instance { get => instance; private set => instance = value; }

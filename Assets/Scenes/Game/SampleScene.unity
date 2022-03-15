@@ -6784,7 +6784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95ddb9218ee96954fbb76717b3104881, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 5
+  sensitivity: 10
   invertVertical: 0
   invertHorizontal: 0
 --- !u!1 &669214216
@@ -12865,7 +12865,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3725496295378914024, guid: f9d1115e0572e4b70b80a6d3a888c8dc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f9d1115e0572e4b70b80a6d3a888c8dc, type: 3}
 --- !u!4 &1179222834 stripped
 Transform:

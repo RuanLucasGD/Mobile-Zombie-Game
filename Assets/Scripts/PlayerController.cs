@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 
@@ -39,13 +37,13 @@ public class PlayerController : MonoBehaviourPunCallbacks
     [SerializeField] private string runAnimationParameter;
 
     [Header("Armature Moviment")]
-    public Transform rootBone;
-    public Transform upperBodyBone;
-    public TransformAxis bodyRight;
+    [SerializeField] private Transform rootBone;
+    [SerializeField] private Transform upperBodyBone;
+    [SerializeField] private TransformAxis bodyRight;
 
     [Header("Aim")]
-    public float aimDistance;
-    public LayerMask aimLayer;
+    [SerializeField] private float aimDistance;
+    [SerializeField] private LayerMask aimLayer;
 
     private float currentMouseEulerX;
 
@@ -69,18 +67,29 @@ public class PlayerController : MonoBehaviourPunCallbacks
     public string HorizontalAxis { get => horizontalAxis; set => horizontalAxis = value; }
     public string MouseVerticalAxis { get => mouseVerticalAxis; set => mouseVerticalAxis = value; }
     public string MouseHorizontalAxis { get => mouseHorizontalAxis; set => mouseHorizontalAxis = value; }
-    public float PlayerMoveSpeed { get => playerMoveSpeed; set => playerMoveSpeed = value; }
-    public float Gravity { get => gravity; set => gravity = value; }
-    public float MaxCameraVertical { get => maxCameraVertical; set => maxCameraVertical = value; }
-    public Camera PlayerCamera { get => playerCamera; set => playerCamera = value; }
-    public float MouseSensitive { get => mouseSensitive; set => mouseSensitive = value; }
-    public GameObject WeaponSystem { get => weaponSystem; set => weaponSystem = value; }
-    public GameObject WeaponMesh { get => weaponMesh; set => weaponMesh = value; }
     public bool DisableDefaultControl { get => disableDefaultControl; set => disableDefaultControl = value; }
+
     public float VerticalInput { get => verticalInput; set => verticalInput = value; }
     public float HorizontalInput { get => horizontalInput; set => horizontalInput = value; }
     public float MouseHorizontalInput { get => mouseHorizontalInput; set => mouseHorizontalInput = value; }
     public float MouseVerticalInput { get => mouseVerticalInput; set => mouseVerticalInput = value; }
+
+    public float PlayerMoveSpeed { get => playerMoveSpeed; set => playerMoveSpeed = value; }
+    public float Gravity { get => gravity; set => gravity = value; }
+
+    public float MaxCameraVertical { get => maxCameraVertical; set => maxCameraVertical = value; }
+    public Camera PlayerCamera { get => playerCamera; set => playerCamera = value; }
+    public float MouseSensitive { get => mouseSensitive; set => mouseSensitive = value; }
+
+    public GameObject WeaponSystem { get => weaponSystem; set => weaponSystem = value; }
+    public GameObject WeaponMesh { get => weaponMesh; set => weaponMesh = value; }
+
+    public Transform RootBone { get => rootBone; set => rootBone = value; }
+    public Transform UpperBodyBone { get => upperBodyBone; set => upperBodyBone = value; }
+    public TransformAxis BodyRight { get => bodyRight; set => bodyRight = value; }
+    
+    public float AimDistance { get => aimDistance; set => aimDistance = value; }
+    public LayerMask AimLayer { get => aimLayer; set => aimLayer = value; }
 
     // Start is called before the first frame update
     void Start()
@@ -89,10 +98,10 @@ public class PlayerController : MonoBehaviourPunCallbacks
         meshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
         characterController = GetComponent<CharacterController>();
 
-        if (rootBone && upperBodyBone)
+        if (RootBone && UpperBodyBone)
         {
-            initialRootBoneRotation = rootBone.localRotation;
-            initialUpperBodyBoneRotation = upperBodyBone.localRotation;
+            initialRootBoneRotation = RootBone.localRotation;
+            initialUpperBodyBoneRotation = UpperBodyBone.localRotation;
         }
 
         if (photonView.IsMine)
@@ -123,7 +132,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
     private void LateUpdate()
     {
-        upperBodyBone.localRotation = initialUpperBodyBoneRotation;
+        UpperBodyBone.localRotation = initialUpperBodyBoneRotation;
 
         AnimArmatureLookToTarget(aimPosition);
     }
@@ -136,7 +145,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
             return;
         }
 
-        aimPosition = GetAimPosition(PlayerCamera, aimDistance, aimLayer);
+        aimPosition = GetAimPosition(PlayerCamera, AimDistance, AimLayer);
 
         if (photonView.IsMine)
         {
@@ -174,18 +183,18 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
     private void AnimArmatureLookToTarget(Vector3 aimPosition)
     {
-        upperBodyBone.localRotation = initialUpperBodyBoneRotation;
+        UpperBodyBone.localRotation = initialUpperBodyBoneRotation;
 
-        var _upBody = GetAxisDirection(bodyRight);
-        var _angleToTarget = Vector3.Angle(upperBodyBone.forward, (aimPosition - upperBodyBone.position));
-        var _rootRot = rootBone.rotation;
+        var _upBody = GetAxisDirection(BodyRight);
+        var _angleToTarget = Vector3.Angle(UpperBodyBone.forward, (aimPosition - UpperBodyBone.position));
+        var _rootRot = RootBone.rotation;
 
-        if (aimPosition.y > upperBodyBone.position.y)
+        if (aimPosition.y > UpperBodyBone.position.y)
         {
             _angleToTarget = 360 - _angleToTarget;
         }
 
-        upperBodyBone.rotation = Quaternion.RotateTowards(upperBodyBone.rotation, _rootRot, 0) * Quaternion.Euler(_upBody * _angleToTarget);
+        UpperBodyBone.rotation = Quaternion.RotateTowards(UpperBodyBone.rotation, _rootRot, 0) * Quaternion.Euler(_upBody * _angleToTarget);
     }
 
     private Vector3 GetAxisDirection(TransformAxis axis)

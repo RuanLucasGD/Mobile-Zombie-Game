@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class Touch : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
@@ -20,6 +17,10 @@ public class Touch : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private float horizontal;
     private float vertical;
 
+    private bool IsPressed;
+    private float Horizontal => horizontal;
+    private float Vertical => vertical;
+
     void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
@@ -29,31 +30,35 @@ public class Touch : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         if (gameManager.Player)
         {
-            if (isPressed)
-            {
-                var _dir = (pointerData.position - lastPointPosition) * Time.fixedDeltaTime;
-                lastPointPosition = pointerData.position;
-
-                horizontal = _dir.x * sensitivity;
-                vertical = _dir.y * sensitivity;
-
-                if (invertHorizontal) horizontal *= -1;
-                if (invertVertical) vertical *= -1;
-            }
-            else
-            {
-                horizontal = 0;
-                vertical = 0;
-            }
+            GetTouchDragSpeed(ref vertical, ref horizontal);
 
             gameManager.Player.MouseHorizontalInput = horizontal;
             gameManager.Player.MouseVerticalInput = vertical;
         }
     }
 
+    private void GetTouchDragSpeed(ref float vertical, ref float horizontal)
+    {
+        if (isPressed)
+        {
+            var _dir = (pointerData.position - lastPointPosition) * Time.fixedDeltaTime;
+            lastPointPosition = pointerData.position;
+
+            horizontal = _dir.x * sensitivity;
+            vertical = _dir.y * sensitivity;
+
+            if (invertHorizontal) horizontal *= -1;
+            if (invertVertical) vertical *= -1;
+        }
+        else
+        {
+            horizontal = 0;
+            vertical = 0;
+        }
+    }
+
     public void OnPointerUp(PointerEventData e)
     {
-
         isPressed = false;
         pointerData = e;
     }
