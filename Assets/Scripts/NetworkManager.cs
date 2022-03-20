@@ -1,5 +1,6 @@
 using UnityEngine;
 using Photon.Pun;
+using System.Collections.Generic;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
@@ -14,10 +15,17 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     [Header("network")]
     [SerializeField] private string roomName;
 
+    private bool gameStarted;
+
+    private PlayerController[] playersOnGame;
+
+    public bool GameStarted => gameStarted;
+    public bool IsMaster => PhotonNetwork.IsMasterClient;
+    public string RoomName { get => roomName; set => roomName = value; }
+    public string PlayerPath { get => playerPath; set => playerPath = value; }
     public GameObject SpawnArea { get => spawnArea; set => spawnArea = value; }
     public float MaxSpawnDistance { get => maxSpawnDistance; set => maxSpawnDistance = value; }
-    public string PlayerPath { get => playerPath; set => playerPath = value; }
-    public string RoomName { get => roomName; set => roomName = value; }
+    public PlayerController[] PlayersOnGame => playersOnGame;
 
     private static NetworkManager instance;
     public static NetworkManager Instance { get => instance; private set => instance = value; }
@@ -36,6 +44,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     private void Start()
     {
+        playersOnGame = new PlayerController[0];
+
         EnableMouseCursor(true);
     }
 
@@ -48,7 +58,11 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         DisableSpawnArea();
         SpawnPlayer();
+
+
+        photonView.RPC(nameof(UpdatePlayersList), RpcTarget.AllBuffered);
         //EnableMouseCursor(false);
+        gameStarted = true;
     }
 
     public override void OnJoinRoomFailed(short returnCode, string message)
@@ -78,6 +92,12 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         var _spawnPos = SpawnArea.transform.position + (new Vector3(_randomX, 0, _randomz).normalized * MaxSpawnDistance);
 
         PhotonNetwork.Instantiate(PlayerPath, _spawnPos, Quaternion.identity);
+    }
+
+    [PunRPC]
+    private void UpdatePlayersList()
+    {
+        playersOnGame = FindObjectsOfType<PlayerController>();
     }
 
     private void EnableMouseCursor(bool enabled)

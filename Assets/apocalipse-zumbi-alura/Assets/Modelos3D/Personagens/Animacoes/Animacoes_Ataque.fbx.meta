@@ -1,65 +1,167 @@
 fileFormatVersion: 2
 guid: ddf59738cd3fce848867929e0595edc5
-timeCreated: 1482021382
-licenseType: Store
 ModelImporter:
-  serializedVersion: 21
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Body_jnt
-    100004: Foot_Left_jnt
-    100006: Foot_Left_jnt1
-    100008: Foot_Right_jnt
-    100010: Foot_Right_jnt1
-    100012: Hand_Left_jnt
-    100014: Hand_Right_jnt
-    100016: Hat_jnt
-    100018: Hat_jnt1
-    100020: Head_jnt
-    100022: Hips_jnt
-    100024: LowerArm_Left_jnt
-    100026: LowerArm_Right_jnt
-    100028: LowerLeg_Left_jnt
-    100030: LowerLeg_Right_jnt
-    100032: Root_jnt
-    100034: Spine_jnt
-    100036: UpperArm_Left_jnt
-    100038: UpperArm_Right_jnt
-    100040: UpperLeg_Left_jnt
-    100042: UpperLeg_Right_jnt
-    400000: //RootNode
-    400002: Body_jnt
-    400004: Foot_Left_jnt
-    400006: Foot_Left_jnt1
-    400008: Foot_Right_jnt
-    400010: Foot_Right_jnt1
-    400012: Hand_Left_jnt
-    400014: Hand_Right_jnt
-    400016: Hat_jnt
-    400018: Hat_jnt1
-    400020: Head_jnt
-    400022: Hips_jnt
-    400024: LowerArm_Left_jnt
-    400026: LowerArm_Right_jnt
-    400028: LowerLeg_Left_jnt
-    400030: LowerLeg_Right_jnt
-    400032: Root_jnt
-    400034: Spine_jnt
-    400036: UpperArm_Left_jnt
-    400038: UpperArm_Right_jnt
-    400040: UpperLeg_Left_jnt
-    400042: UpperLeg_Right_jnt
-    7400000: Ataque
-    7400002: Melee_TwoHanded
-    7400004: Melee_Stab
-    7400006: Bow_Idle
-    7400008: Bow_Load
-    7400010: Bow_Shoot
-    9500000: //RootNode
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Body_jnt
+  - first:
+      1: 100004
+    second: Foot_Left_jnt
+  - first:
+      1: 100006
+    second: Foot_Left_jnt1
+  - first:
+      1: 100008
+    second: Foot_Right_jnt
+  - first:
+      1: 100010
+    second: Foot_Right_jnt1
+  - first:
+      1: 100012
+    second: Hand_Left_jnt
+  - first:
+      1: 100014
+    second: Hand_Right_jnt
+  - first:
+      1: 100016
+    second: Hat_jnt
+  - first:
+      1: 100018
+    second: Hat_jnt1
+  - first:
+      1: 100020
+    second: Head_jnt
+  - first:
+      1: 100022
+    second: Hips_jnt
+  - first:
+      1: 100024
+    second: LowerArm_Left_jnt
+  - first:
+      1: 100026
+    second: LowerArm_Right_jnt
+  - first:
+      1: 100028
+    second: LowerLeg_Left_jnt
+  - first:
+      1: 100030
+    second: LowerLeg_Right_jnt
+  - first:
+      1: 100032
+    second: Root_jnt
+  - first:
+      1: 100034
+    second: Spine_jnt
+  - first:
+      1: 100036
+    second: UpperArm_Left_jnt
+  - first:
+      1: 100038
+    second: UpperArm_Right_jnt
+  - first:
+      1: 100040
+    second: UpperLeg_Left_jnt
+  - first:
+      1: 100042
+    second: UpperLeg_Right_jnt
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Body_jnt
+  - first:
+      4: 400004
+    second: Foot_Left_jnt
+  - first:
+      4: 400006
+    second: Foot_Left_jnt1
+  - first:
+      4: 400008
+    second: Foot_Right_jnt
+  - first:
+      4: 400010
+    second: Foot_Right_jnt1
+  - first:
+      4: 400012
+    second: Hand_Left_jnt
+  - first:
+      4: 400014
+    second: Hand_Right_jnt
+  - first:
+      4: 400016
+    second: Hat_jnt
+  - first:
+      4: 400018
+    second: Hat_jnt1
+  - first:
+      4: 400020
+    second: Head_jnt
+  - first:
+      4: 400022
+    second: Hips_jnt
+  - first:
+      4: 400024
+    second: LowerArm_Left_jnt
+  - first:
+      4: 400026
+    second: LowerArm_Right_jnt
+  - first:
+      4: 400028
+    second: LowerLeg_Left_jnt
+  - first:
+      4: 400030
+    second: LowerLeg_Right_jnt
+  - first:
+      4: 400032
+    second: Root_jnt
+  - first:
+      4: 400034
+    second: Spine_jnt
+  - first:
+      4: 400036
+    second: UpperArm_Left_jnt
+  - first:
+      4: 400038
+    second: UpperArm_Right_jnt
+  - first:
+      4: 400040
+    second: UpperLeg_Left_jnt
+  - first:
+      4: 400042
+    second: UpperLeg_Right_jnt
+  - first:
+      74: 7400000
+    second: zombie_attack
+  - first:
+      74: 7400002
+    second: Melee_TwoHanded
+  - first:
+      74: 7400004
+    second: Melee_Stab
+  - first:
+      74: 7400006
+    second: Bow_Idle
+  - first:
+      74: 7400008
+    second: Bow_Load
+  - first:
+      74: 7400010
+    second: Bow_Shoot
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -70,11 +172,13 @@ ModelImporter:
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
-      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
-      improve retargeting quality.\n\t'Body_jnt' has translation animation that will
-      be discarded.\n"
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Body_jnt' has translation animation that
+      will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -84,8 +188,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Ataque
+      name: zombie_attack
       takeName: Take 001
+      internalID: 0
       firstFrame: 810
       lastFrame: 845
       wrapMode: 0
@@ -161,19 +266,31 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 0
     importCameras: 0
     importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -181,10 +298,13 @@ ModelImporter:
     normalImportMode: 2
     tangentImportMode: 2
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 2
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: Hips_jnt
       humanName: Hips
@@ -464,15 +584,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: dbbc53a6bc8f5c64bb234194ce1380aa,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
