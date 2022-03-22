@@ -4,33 +4,28 @@ using Photon.Pun;
 public class EnemiesSpawn : MonoBehaviourPunCallbacks
 {
     public Transform spawnPos;
+
     public string enemy;
-
-
     private bool spawned;
-
-    void Start()
-    {
-
-    }
 
     private void Update()
     {
-        if (NetworkManager.Instance.GameStarted)
+        if (GameManager.Instance.GameStarted)
         {
             if (!spawned)
             {
                 spawned = true;
-                SpawnEnemey(enemy);
+                SpawnEnemey();
             }
         }
     }
 
-    public void SpawnEnemey(string path)
+    public void SpawnEnemey()
     {
         if (photonView.IsMine)
         {
-            PhotonNetwork.Instantiate(path, spawnPos.position, Quaternion.identity);
+            PhotonNetwork.Instantiate(enemy, spawnPos.position, Quaternion.identity);
+            PhotonNetwork.Instantiate(enemy, spawnPos.position + Vector3.forward, Quaternion.identity);
         }
     }
 }

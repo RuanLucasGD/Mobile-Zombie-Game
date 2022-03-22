@@ -1,73 +1,58 @@
-using UnityEngine;
 using Photon.Pun;
-using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Events;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
-    [SerializeField] private GameObject spawnArea;
+    private bool isConnected;
+    private bool isJoinedOnRoom;
 
-    [Space]
-    [SerializeField] private string playerPath;
+    public delegate void ConnectionTest();
 
-    [Header("Spawn area")]
-    [SerializeField] private float maxSpawnDistance;
+    private ConnectionTest onConnectedOnMaster;
+    private ConnectionTest onJoinedOnRoom;
+    private ConnectionTest onConnectionOnMasterFail;
+    private ConnectionTest onJoinOnRoomFail;
 
-    [Header("network")]
-    [SerializeField] private string roomName;
-
-    private bool gameStarted;
-
-    private PlayerController[] playersOnGame;
-
-    public bool GameStarted => gameStarted;
+    public bool IsConnected => isConnected;
+    public bool IsJoinedOnRoom => isJoinedOnRoom;
     public bool IsMaster => PhotonNetwork.IsMasterClient;
-    public string RoomName { get => roomName; set => roomName = value; }
-    public string PlayerPath { get => playerPath; set => playerPath = value; }
-    public GameObject SpawnArea { get => spawnArea; set => spawnArea = value; }
-    public float MaxSpawnDistance { get => maxSpawnDistance; set => maxSpawnDistance = value; }
-    public PlayerController[] PlayersOnGame => playersOnGame;
+
+    public ConnectionTest OnConnectedOnMaster { get => onConnectedOnMaster; set => onConnectedOnMaster = value; }
+    public ConnectionTest OnJoinedOnRoom { get => onJoinedOnRoom; set => onJoinedOnRoom = value; }
+    public ConnectionTest OnConnectionOnMasterFail { get => onConnectionOnMasterFail; set => onConnectionOnMasterFail = value; }
+    public ConnectionTest OnJoinOnRoomFail { get => onJoinOnRoomFail; set => onJoinOnRoomFail = value; }
 
     private static NetworkManager instance;
     public static NetworkManager Instance { get => instance; private set => instance = value; }
 
     private void Awake()
     {
-        if (instance)
-        {
-            return;
-        }
+        if (instance) return;
 
         instance = this;
 
         PhotonNetwork.ConnectUsingSettings();
-    }
-
-    private void Start()
-    {
-        playersOnGame = new PlayerController[0];
-
-        EnableMouseCursor(true);
+        DontDestroyOnLoad(this.gameObject);
     }
 
     public override void OnConnectedToMaster()
     {
-        JoinRoom(RoomName);
+        isConnected = true;
+
+        if (OnConnectedOnMaster != null) OnConnectedOnMaster();
     }
 
     public override void OnJoinedRoom()
     {
-        DisableSpawnArea();
-        SpawnPlayer();
+        isJoinedOnRoom = true;
 
-
-        photonView.RPC(nameof(UpdatePlayersList), RpcTarget.AllBuffered);
-        //EnableMouseCursor(false);
-        gameStarted = true;
+        if (OnJoinedOnRoom != null) OnJoinedOnRoom();
     }
 
     public override void OnJoinRoomFailed(short returnCode, string message)
     {
-        CreateRoom(RoomName);
+        if (OnJoinOnRoomFail != null) OnJoinOnRoomFail();
     }
 
     public void CreateRoom(string name)
@@ -80,29 +65,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         PhotonNetwork.JoinRoom(name);
     }
 
-    private void DisableSpawnArea()
+    public void LoadScene(string sceneName)
     {
-        SpawnArea.SetActive(false);
-    }
-
-    private void SpawnPlayer()
-    {
-        var _randomX = UnityEngine.Random.Range(-1f, 1f);
-        var _randomz = UnityEngine.Random.Range(-1f, 1f);
-        var _spawnPos = SpawnArea.transform.position + (new Vector3(_randomX, 0, _randomz).normalized * MaxSpawnDistance);
-
-        PhotonNetwork.Instantiate(PlayerPath, _spawnPos, Quaternion.identity);
-    }
-
-    [PunRPC]
-    private void UpdatePlayersList()
-    {
-        playersOnGame = FindObjectsOfType<PlayerController>();
-    }
-
-    private void EnableMouseCursor(bool enabled)
-    {
-        Cursor.visible = enabled;
-        Cursor.lockState = !enabled ? CursorLockMode.Locked : CursorLockMode.None;
+        PhotonNetwork.LoadLevel(sceneName);
     }
 }

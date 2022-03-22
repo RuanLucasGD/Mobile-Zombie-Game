@@ -64,7 +64,7 @@ public class ZombieAI : MonoBehaviourPunCallbacks
         {
             var _lookAt = Quaternion.LookRotation(target.position - transform.position);
             _lookAt.eulerAngles = Vector3.up * _lookAt.eulerAngles.y;
-            
+
             transform.rotation = _lookAt;
         }
 
@@ -78,9 +78,12 @@ public class ZombieAI : MonoBehaviourPunCallbacks
     {
         yield return new WaitForSeconds(interval);
 
-        if (NetworkManager.Instance.GameStarted && NetworkManager.Instance.PlayersOnGame.Length > 0)
+        if (photonView.IsMine)
         {
-            photonView.RPC(nameof(GetNearPlayer), RpcTarget.AllBuffered);
+            if (GameManager.Instance.GameStarted && GameManager.Instance.PlayersOnGame.Length > 0)
+            {
+                photonView.RPC(nameof(GetNearPlayer), RpcTarget.AllBuffered);
+            }
         }
 
         StartCoroutine(GetTargetCoroutine(interval));
@@ -89,10 +92,10 @@ public class ZombieAI : MonoBehaviourPunCallbacks
     [PunRPC]
     private void GetNearPlayer()
     {
-        var _nearTarget = NetworkManager.Instance.PlayersOnGame[0].transform;
+        var _nearTarget = GameManager.Instance.PlayersOnGame[0].transform;
         var _selfPos = transform.position;
 
-        foreach (var p in NetworkManager.Instance.PlayersOnGame)
+        foreach (var p in GameManager.Instance.PlayersOnGame)
         {
             if (Vector3.Distance(_selfPos, p.transform.position) < Vector3.Distance(_selfPos, _nearTarget.position))
             {
